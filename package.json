@@ -1,0 +1,45 @@
+{
+  "name": "numberlabel",
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Convert a large number to nice formatted string.",
+  "author": {
+    "name": "Tiago Danin",
+    "email": "TiagoDanin@outlook.com",
+    "url": "https://TiagoDanin.github.io"
+  },
+  "license": "MIT",
+  "keywords": [
+    "number",
+    "label"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "private": false,
+  "repository": "https://github.com/TiagoDanin/Number-Label.git",
+  "homepage": "https://TiagoDanin.github.io/Number-Label",
+  "bugs": "https://github.com/TiagoDanin/Number-Label/issues",
+  "github": {
+    "name": "Number-Label",
+    "owner": "TiagoDanin"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "features": [
+    "No dependencies",
+    "Easy to Use",
+    "Use the International System of Units (SI)"
+  ],
+  "related": [
+    "bytelabel"
+  ]
+}
