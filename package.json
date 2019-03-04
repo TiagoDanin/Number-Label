@@ -1,7 +1,7 @@
 {
   "name": "numberlabel",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Convert a large number to nice formatted string.",
   "author": {
     "name": "Tiago Danin",
@@ -11,7 +11,10 @@
   "license": "MIT",
   "keywords": [
     "number",
-    "label"
+    "label",
+    "string",
+    "si",
+    "units"
   ],
   "scripts": {
     "start": "node index.js",
