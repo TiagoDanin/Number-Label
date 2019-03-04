@@ -30,7 +30,7 @@ const getLabel = (number = 0, options={}) => {
 	}
 
 	number = Math.abs(Number(number))
-	if (number == 0) {
+	if (number == 0 || (options.start && number <= options.start)) {
 		let amount = amounts.find((e) => {
 			return e.pow == 0
 		})
