@@ -35,7 +35,7 @@
     "package.json"
   ],
   "engines": {
-    "node": ">=8"
+    "node": ">=v8.17.0"
   },
   "features": [
     "No dependencies",
