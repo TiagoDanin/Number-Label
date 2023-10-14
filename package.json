@@ -35,7 +35,7 @@
     "package.json"
   ],
   "engines": {
-    "node": ">=8"
+    "node": ">=18.18.2"
   },
   "features": [
     "No dependencies",
